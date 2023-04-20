@@ -12,7 +12,6 @@ const fieldValidator = (req, res = response, next) => {
   }
 
   next();
-  
 };
 
 module.exports = { fieldValidator };
